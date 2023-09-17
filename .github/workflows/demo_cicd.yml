@@ -1,5 +1,4 @@
-name: test_cicd
-
+name: demo_cicd
 on:
   pull_request:
     branches: [ main ]
