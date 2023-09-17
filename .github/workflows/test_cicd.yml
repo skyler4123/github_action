@@ -16,7 +16,7 @@ jobs:
           POSTGRES_PASSWORD: password
         ports:
           - 5432:5432
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
 
